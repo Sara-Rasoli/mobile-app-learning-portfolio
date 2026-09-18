@@ -1,38 +1,41 @@
 fun main() {
-    println("Monday")
-    println("Tuesday")
-    println("Wednesday")
-    println("Thursday")
-    println("Friday")
+    val trip1: Double = 3.20
+    val trip2: Double = 4.10
+    val trip3: Double = 1.72
+    val totalTripLength: Double = 0.0
+    println("$totalTripLength miles left to destination")
 }
 
-#-------------------------------------------------------------------------------------
+
+
+//-----------------------------------------------------------------------------------------------------
 
 fun main() {
-    val steps = 4000
-    val caloriesBurned = pedometerStepsToCalories(steps)
-    println("Walking $steps steps burns $caloriesBurned calories") 
+    val nextMeeting = "Next meeting:"
+    val date = "January 1"
+    val reminder = nextMeeting + date
+    println(reminder)
 }
 
-fun pedometerStepsToCalories(numberOfSteps: Int): Double {
-    val caloriesBurnedForEachStep = 0.04
-    val totalCaloriesBurned = numberOfSteps * caloriesBurnedForEachStep
-    return totalCaloriesBurned
-}
-
-#-------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
 
 fun main() {
-    printWeatherForCity("Ankara", 27, 31, 82)
-    printWeatherForCity("Tokyo", 32, 36, 10)
-    printWeatherForCity("Cape Town", 59, 64, 2)
-    printWeatherForCity("Guatemala City", 50, 55, 7)
+    val notificationsEnabled: Boolean = true
+    println(notificationsEnabled)
 }
 
-fun printWeatherForCity(cityName: String, lowTemp: Int, highTemp: Int, chanceOfRain: Int) {
-    println("City: $cityName")
-    println("Low temperature: $lowTemp, High temperature: $highTemp")
-    println("Chance of rain: $chanceOfRain%")
-    println()
-}
+//-------------------------------------------------------------------------------------------------------
 
+/*
+ * This program displays the number of messages
+ * in the user's inbox.
+ */
+fun main() {
+    // Create a variable
+    var count = 10
+    println("You have $count unread messages.")
+
+    // Decrease the number of messages by 1
+    count--
+    println("You have $count unread messages.")
+}

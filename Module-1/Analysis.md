@@ -17,5 +17,5 @@ A `val` variable is used when the value should not be reassigned after initializ
 A `var` variable is used when the value may change during program execution.
 
 For example:
-val name = "Sara"
-var count = 10
+- val name = "Sara"
+- var count = 10

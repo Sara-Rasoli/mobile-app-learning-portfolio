@@ -38,9 +38,6 @@ Through this portfolio, I aimed to:
 
 mobile-app-learning-portfolio/
 │
-├── Assets/
-│   └── Screenshots and supporting learning evidence
-│
 ├── Module-1/
 │   ├── BadgeEvidence/
 │   ├── Screenshots/

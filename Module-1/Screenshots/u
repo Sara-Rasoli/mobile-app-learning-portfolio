@@ -1,6 +1,0 @@
-//Variables and data types
-
-fun main() {
-    val notificationsEnabled: Boolean = true
-    println(notificationsEnabled)
-}

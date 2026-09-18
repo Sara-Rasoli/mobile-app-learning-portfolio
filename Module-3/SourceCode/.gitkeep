@@ -16,13 +16,41 @@ fun birthdayGreeting() {
 
 /-------------------------------------------------------------
 
-fun birthdayGreeting(name: String, age: Int): String {
-    val nameGreeting = "Happy Birthday, $name!"
-    val ageGreeting = "You are now 5 years old!"
-    return "$nameGreeting\n$ageGreeting"
+fun main() {
+    println("Use the val keyword when the value doesn't change.")
+    println("Use the var keyword when the value can change.")
+    println("When you define a function, you define the parameters that can be passed to it.")
+    println("When you call a function, you pass arguments for the parameters.")
 }
 
-//-------------------------------------------------------------
+//----------------------------------------------------------------------
 
-println(birthdayGreeting("Rover"))
-println(birthdayGreeting("Rex"))
+fun main() {
+    val discountPercentage = 20
+    val item = "Google Chromecast"
+    val offer = "Sale  - Up to $discountPercentage% discount off $item! Hurry Up!"
+
+    println(offer)
+}
+
+//--------------------------------------------------------------------------
+
+fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+    
+    val result = add(firstNumber, secondNumber)
+    val anotherResult = subtract(firstNumber, thirdNumber)
+
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber - $thirdNumber = $anotherResult")
+}
+
+fun add(firstNumber: Int, secondNumber: Int): Int {
+    return firstNumber + secondNumber
+}
+
+fun subtract(firstNumber: Int, secondNumber: Int): Int {
+    return firstNumber - secondNumber
+}
